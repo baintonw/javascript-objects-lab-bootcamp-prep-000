@@ -11,7 +11,11 @@ function updateObjectWithKeyAndValue(recipes, key, value) {
 }
 
 function destructivelyDeleteFromObjectByKey(recipes, key) {
+<<<<<<< HEAD
   delete recipes[key];
+=======
+  delete recipes.key;
+>>>>>>> bc414f0a2f00e0f704b55277e9423e41277d5537
   return recipes
 }
 
